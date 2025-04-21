@@ -36,9 +36,10 @@ public class ChracterStats : MonoBehaviour
 
     public void UseMana(int amount)
     {
+        currentMana -= amount;
         if(currentMana < 0)
         {
-            currentMana -= amount;
+            currentMana = 0;
         }
         UpdateUI();
     }
