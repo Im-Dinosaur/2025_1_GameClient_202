@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 294196630}
   m_Layer: 8
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,14 +256,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 294196629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4174710cab072214e88d69918f066b4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 632b2ad5b797f0c4c9204defeb2c5874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: "\uC801"
+  characterName: Enemy
   maxHealth: 100
-  currentHealth: 100
+  currentHealth: 0
   currentMana: 0
-  maxMana: 100
+  maxMana: 10
   healthBar: {fileID: 0}
   manaBar: {fileID: 0}
   healthText: {fileID: 0}
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 331845669}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,12 +385,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 331845668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4174710cab072214e88d69918f066b4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 632b2ad5b797f0c4c9204defeb2c5874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: "\uD50C\uB808\uC774\uC5B4"
+  characterName: Player
   maxHealth: 100
-  currentHealth: 100
+  currentHealth: 0
   currentMana: 0
   maxMana: 10
   healthBar: {fileID: 0}
@@ -1104,7 +1104,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bfe0ce5e6a8c9eb48b8f069c06880400, type: 2}
   - {fileID: 11400000, guid: 96ad75e4f9a3bb146b745735f26745e4, type: 2}
   - {fileID: 11400000, guid: 70a4a1b240b8f1c488b65b24a3b1082b, type: 2}
-  - {fileID: 11400000, guid: a41041f116fbd9b48ae2aa0cd7025941, type: 2}
+  - {fileID: 11400000, guid: bd24a37d6af068447865222ab2b7d8cb, type: 2}
+  - {fileID: 11400000, guid: a0186a0452c811741ad9edbf99dd8704, type: 2}
+  - {fileID: 11400000, guid: bd24a37d6af068447865222ab2b7d8cb, type: 2}
+  - {fileID: 11400000, guid: a0186a0452c811741ad9edbf99dd8704, type: 2}
+  - {fileID: 11400000, guid: 88bd38f6bc1219644800b2514feee847, type: 2}
+  - {fileID: 11400000, guid: 88bd38f6bc1219644800b2514feee847, type: 2}
   handCards: []
   discardCards: []
   cardPrefab: {fileID: 2719895962172124685, guid: 48684366d0f45574f9286036bd5e32a5,
